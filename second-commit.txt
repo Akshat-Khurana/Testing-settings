@@ -1,0 +1,5 @@
+git init
+git status
+git add . or git add filename.txt
+git commit -m "your message"
+git log // for checking the files you committed
