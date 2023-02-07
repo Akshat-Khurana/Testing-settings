@@ -3,3 +3,5 @@ git status
 git add . or git add filename.txt
 git commit -m "your message"
 git log // for checking the files you committed
+git branch -m main // changes branch name
+git checkout -b feature // creates new branch named checkout
