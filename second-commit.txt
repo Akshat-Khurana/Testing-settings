@@ -6,3 +6,4 @@ git log // for checking the files you committed
 git branch -m main // changes branch name
 git checkout -b feature // creates new branch named checkout
 git checkout master // to switch between branches
+git merge feature // to merge feature to main
