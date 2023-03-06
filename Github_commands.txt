@@ -1,0 +1,39 @@
+-- Git Commands --
+git init
+
+git status
+
+git add . or git add filename.txt
+
+git commit -m "your message"
+
+git remote add origin 'your_url_name'
+
+git push -u origin main
+
+git clone 'file_name' // to clone
+
+git pull // to copy changes from github
+
+git log // for checking the files you committed
+
+git branch // to check the current branch we are in
+
+git branch -m main // changes branch name
+
+git checkout -b feature // creates new branch named checkout
+
+git checkout master // to switch between branches
+
+git merge feature // to merge feature to main
+
+go and file and run git rm filename to delete a file
+
+git reset --hard HEAD~1 // reverts back to previous commit, 1 here signifies the commit we want back 
+
+git branch -D feature // deletes branch named feature
+
+git checkout -- . // reverts back to the latest commit, if the changes are still unstaged
+
+git reset file1.txt // resets the staged changes add .
+Then you can do git checkout -- file1.txt to revert to previous commit
